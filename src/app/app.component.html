@@ -1,0 +1,29 @@
+<div class="container-fluid text-center">
+<h1 class= mt-3 mb-3>Dojo Weather Forecast</h1>
+
+<ul class="nav nav-tabs mb-4">
+  <li class="nav-item">
+    <a class="nav-link active" [routerLink]="['']">Landing</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" [routerLink]="['dc']">Washington D.C</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" [routerLink]="['chicago']">Chicago</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" [routerLink]="['dallas']">Dallas</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" [routerLink]="['seattle']">Seattle</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" [routerLink]="['burbank']">Burbank</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" [routerLink]="['sanjose']">San Jose</a>
+  </li>
+</ul>
+<router-outlet></router-outlet>
+
+</div>
